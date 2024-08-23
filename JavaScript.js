@@ -8,9 +8,9 @@ function pause_icon() {
     let img = document.createElement("img");
     
     if (screen.width > 500) {
-        img.src = "/Imagenes/pattern-divider-desktop.svg";
+        img.src = "pattern-divider-desktop.svg";
     } else if (screen.width <375) {
-        img.src = "Imagenes/pattern-divider-mobile.svg";
+        img.src = "pattern-divider-mobile.svg";
 
     }else{
        console.log("There was an error!")
